@@ -1,5 +1,11 @@
 # Notifications
 
+## How to run the project
+
+Clone the project down.
+Install packages via npm i.
+Run the local server via ng serve. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
 
 ## Development server
