@@ -1,0 +1,15 @@
+.invite-card{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.card-space {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.read {
+  text-align: right;
+}

@@ -1,0 +1,16 @@
+<div class="col-md-12" *ngFor="let item of inviteList?.invites">
+  <div class="invite-card" id="{{item.invite_id}}">
+    <h2 class="card-space ">{{item.sender_id}}</h2>
+    <p class="card-space">
+      {{item.invite}}
+      <br />{{item.vector}}
+      <br />{{item.sig_id}}
+    </p>
+    <h4 class="card-space">
+      {{item.invite_time | date}}
+    </h4>
+    <p class="card-space read">
+      {{item.status}}
+    </p>
+  </div>
+</div>
